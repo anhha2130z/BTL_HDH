@@ -1,4 +1,3 @@
-'''
 # tracker.py - Tracker server for P2P system
 from flask import Flask, jsonify, request
 import time
@@ -334,3 +333,4 @@ if __name__ == "__main__":
     start_background_threads()
     log("Starting Tracker server on 0.0.0.0:5000")
     app.run(host="0.0.0.0", port=5000, debug=False)
+'''
